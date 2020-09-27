@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menu-topo {
+  background: #ffc7c7;
+}
+.menu-topo ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 720px) {
+  .menu-topo{
+    flex: 5;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-topo ul {
+    flex-direction: column;
+  }
+}
+.menu-topo ul li {
+  list-style: none;
+  flex: 2;
+}
+.conteudo {
+  background: #e2e2e2;
+  flex: 6;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-height: 60vh;
+}
+.card {
+  background: #fff;
+  margin: 10px;
+  flex: 1;
+  min-width: 400px;
+  padding: 10px;
+}
+.footer {
+  background: #ffc7c7;
+  flex: 2;
+}

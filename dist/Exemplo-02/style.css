@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+.calc {
+  height: 100vh;
+}
+.botoes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn {
+  flex: 1;
+  min-width: 20vw;
+  min-height: 20vw;
+  background: rgb(221, 221, 221);
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
